@@ -1,0 +1,12 @@
+﻿{
+  "name": "TwitterBot",
+  "id": "twitter",
+  "alternatedid": "twitterbot",
+  "version": "1.0.0",
+  "compatible-version": "(1.0.0",
+  "description": "Twitter Plugin for moeBot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nekomeowww/moeBot-plugin-twitter"
+  }
+}
