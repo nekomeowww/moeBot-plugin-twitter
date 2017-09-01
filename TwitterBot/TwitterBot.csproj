@@ -103,12 +103,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Twitter.cs" />
+    <Compile Include="modules\Json.cs" />
+    <Compile Include="TwitterBot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="info.json" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\moeBot\moeInterface\moeInterface.csproj">
+      <Project>{820a07b2-4985-4955-b3b1-d298a18d1d09}</Project>
+      <Name>moeInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties info_1json__JSONSchema="http://json.schemastore.org/appsettings" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

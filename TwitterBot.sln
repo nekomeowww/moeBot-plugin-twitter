@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterBot", "moeBot-plugin-twitter\TwitterBot.csproj", "{CD7DCDAA-D52F-46C9-B13F-1F92D9F297CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterBot", "TwitterBot\TwitterBot.csproj", "{CD7DCDAA-D52F-46C9-B13F-1F92D9F297CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "moeInterface", "..\moeBot\moeInterface\moeInterface.csproj", "{820A07B2-4985-4955-B3B1-D298A18D1D09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CD7DCDAA-D52F-46C9-B13F-1F92D9F297CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD7DCDAA-D52F-46C9-B13F-1F92D9F297CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD7DCDAA-D52F-46C9-B13F-1F92D9F297CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{820A07B2-4985-4955-B3B1-D298A18D1D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820A07B2-4985-4955-B3B1-D298A18D1D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820A07B2-4985-4955-B3B1-D298A18D1D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820A07B2-4985-4955-B3B1-D298A18D1D09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
